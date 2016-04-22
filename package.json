@@ -1,6 +1,6 @@
 {
   "name": "skira-core",
-  "version": "0.7.5-2",
+  "version": "0.7.5-4",
   "description": "Wrapper around Skira sites for full initialization, url resolving and request processing.",
   "main": "dist/site",
   "scripts": {
@@ -8,6 +8,9 @@
     "build": "babel -d dist src",
     "test": "mocha dist/test"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skira-project/core.git"
