@@ -1,12 +1,12 @@
 {
   "name": "skira-core",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "description": "Wrapper around Skira sites for full initialization, url resolving and request processing.",
-  "main": "lib/site",
+  "main": "dist/site",
   "scripts": {
     "lint": "eslint src && jscs src",
-    "build": "babel -d lib src",
-    "test": "mocha lib/test"
+    "build": "babel -d dist src",
+    "test": "mocha dist/test"
   },
   "repository": {
     "type": "git",
