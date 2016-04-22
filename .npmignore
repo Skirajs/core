@@ -1,4 +1,4 @@
-lib/test
+dist/test
 samples
 src
 .babelrc
