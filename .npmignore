@@ -1,0 +1,7 @@
+dist/test
+samples
+src
+.babelrc
+.eslintrc
+.jscsrc
+.travis.yml
