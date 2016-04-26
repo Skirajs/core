@@ -44,9 +44,11 @@ function mergePages(pages) {
 		let proto = mergeMultiple(chain.slice(1).reverse()) || {}
 
 		proto._name = pageName
-		proto._chain = chain
 
 		let newPage = Object.create(proto)
+
+		// TODO: for some reason assigning this to the proto breaks all pages
+		newPage._chain = chain
 
 		for (let key in page) {
 			newPage[key] = page[key]
